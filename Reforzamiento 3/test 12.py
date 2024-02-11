@@ -34,12 +34,16 @@ class Agenda:
 
         personabuscar = input("Ingrese el nombre de la persona que deseaa buscar:")
 
+        verificador = False
+
         for i in self.contactos:
             if  i["nombre"] == personabuscar:
-                print("El contacto {}  fue encontrado en la agenda".format(i["nombre"]))
-            if i["nombre"] != personabuscar:
-                print("El contacto no esta en la agenda")
+                verificador = True
 
+        if verificador:
+            print("{} se encuentra en la agenda".format(personabuscar))
+        else:
+            print("{} no se encuentra en la agenda".format(personabuscar))
 
 
 agenda = Agenda()
