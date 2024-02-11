@@ -13,6 +13,10 @@ def contador(oracion):
 
     return suma
 
-oracion = input("Ingrese una oracion: ")
+oracion = input("Ingrese una oracion con minimo 3 palabras: ")
 
-print("la oracion tiene {} palabras".format(contador(oracion)))
+if contador(oracion) < 3:
+    print("la oracion ingresada tienem menos de 3 palabras")
+else:
+    print("la oracion tiene {} palabras".format(contador(oracion)))
+
