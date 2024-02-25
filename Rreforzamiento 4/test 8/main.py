@@ -1,4 +1,4 @@
-import operacionestest8
+import operaciones
 
 numero = operacionestest8.pedir_numero()
 

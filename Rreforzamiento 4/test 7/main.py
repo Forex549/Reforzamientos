@@ -1,4 +1,4 @@
-import operacionestest7
+import operaciones
 
 lista = operacionestest7.generador()
 

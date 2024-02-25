@@ -4,24 +4,27 @@ de multiplicar de ese número, done n es el número introducido."""
 
 
 def guardar_tabla_multiplicar():
+
     try:
 
-        numero = int(input("Ingrese un número entero entre 1 y 20: "))
+        numero = int(input("Ingrese el numero: "))
 
-        if 1 <= numero <= 20:
-            # Generar la tabla de multiplicar
-            tabla = [f"{numero} x {i} = {numero * i}" for i in range(1, 11)]
 
-            # Guardar la tabla en el archivo tabla.txt
-            with open("tabla.txt", "w") as archivo:
-                archivo.write("\n".join(tabla))
+        if numero >= 1 and numero <= 20:
+            nuevo_archivo = open("tabla.txt", "w")
 
-            print(f"La tabla de multiplicar del {numero} ha sido guardada en tabla.txt.")
+            for i in range(1, 21, 1):
+                m = i * numero
+                nuevo_archivo.write ("\n{} x {} = {}".format(numero, i, m))
+
+            nuevo_archivo.close()
+
+
         else:
-            print("Error: El número ingresado no está en el rango válido.")
+            print("El numero ingresado no eesta dentro del rango")
 
     except ValueError:
-        print("Error: Ingrese un número entero válido.")
+        print("Error Ingrese un valor numericio valido")
 
 
 guardar_tabla_multiplicar()

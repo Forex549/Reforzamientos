@@ -1,4 +1,4 @@
-import operacionestest6
+import operaciones
 
 num1 = operacionestest6.pedir_numero()
 num2 = operacionestest6.pedir_numero()
