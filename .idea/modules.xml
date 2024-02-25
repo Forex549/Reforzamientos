@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Primera Practica/.idea/Primera Practica.iml" filepath="$PROJECT_DIR$/../Primera Practica/.idea/Primera Practica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Problemas/.idea/Problemas.iml" filepath="$PROJECT_DIR$/../Problemas/.idea/Problemas.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Python Cer/.idea/Python Cer.iml" filepath="$PROJECT_DIR$/../Python Cer/.idea/Python Cer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Reforzamientos.iml" filepath="$PROJECT_DIR$/.idea/Reforzamientos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Segunda practica/.idea/Segunda practica.iml" filepath="$PROJECT_DIR$/../Segunda practica/.idea/Segunda practica.iml" />
     </modules>
   </component>
 </project>
